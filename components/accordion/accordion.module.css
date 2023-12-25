@@ -1,0 +1,28 @@
+.accordionContent {
+    padding: 24px 0;
+}
+
+.accordionHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.accordionTitle {
+    color: #000;
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.accordionDescription {
+    color: #1E1E1E;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 16px;
+}
