@@ -1,0 +1,87 @@
+.teamAnchor {
+  position: absolute;
+  top: -84px;
+}
+
+.team {
+  background: #F0F2F9;
+  box-shadow: 0 -4px 16px -12px rgba(0, 0, 0, 0.25) inset;
+  padding: 80px 24px 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.teamCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.teamCard {
+  z-index: 10;
+}
+
+.getInTouchButton {
+  margin-top: 40px;
+}
+
+.teamLeftImage {
+  position: absolute;
+  left: -100px;
+  top: 110px;
+  z-index: 0;
+}
+
+.teamCenterImage {
+  display: none;
+  position: absolute;
+  right: -105px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.teamRightImage {
+  position: absolute;
+  right: -105px;
+  top: -130px;
+  z-index: 0;
+}
+
+@media (max-width: 1200px) {
+  .teamCards {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .teamLeftImage {
+    top: -40px;
+    left: -130px;
+  }
+
+  .teamCenterImage {
+    display: block;
+  }
+
+  .teamRightImage {
+    top: initial;
+    right: initial;
+    bottom: 0;
+    left: -105px;
+  }
+}
+
+@media (max-width: 550px) {
+  .team {
+    padding: 90px 24px;
+  }
+
+  .teamCards {
+    grid-template-columns: 1fr;
+  }
+}

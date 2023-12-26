@@ -1,0 +1,100 @@
+.heroAnchor {
+  position: absolute;
+  top: 0;
+}
+
+.hero {
+  height: 533px;
+  background: #F0F2F9;
+  box-shadow: 0 -4px 16px -12px rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 0 24px;
+}
+
+.heroLeftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.heroTitle {
+  color: #05101B;
+  font-family: var(--font-inter);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 539px;
+  width: 100%;
+}
+
+.heroDescription {
+  color: #000;
+  font-family: var(--font-inter);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.heroRightSide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.talkToJoanButton {
+  position: absolute;
+}
+
+@media (max-width: 1024px) {
+  .heroTitle {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .heroDescription {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-flow: column nowrap;
+    height: initial;
+    padding: 64px 24px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .heroTitle {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .heroDescription {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero {
+    padding: 32px 24px;
+  }
+
+  .heroTitle {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .heroDescription {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}

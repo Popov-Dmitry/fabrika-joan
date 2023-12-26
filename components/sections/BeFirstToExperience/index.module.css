@@ -1,0 +1,30 @@
+.email {
+  height: 371px;
+  background: #150e31;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.emailInputs {
+  background: #FFF;
+  display: flex;
+  max-width: 450px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.emailInput {
+  flex: 1;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  padding-right: 16px !important;
+}
+
+.joinWaitlistButton {
+
+}

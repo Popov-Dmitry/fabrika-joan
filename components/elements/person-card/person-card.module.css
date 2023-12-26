@@ -1,0 +1,63 @@
+.card {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.25);
+}
+
+.avatar {
+    width: 170px;
+    height: 170px;
+    border-radius: 170px;
+}
+
+.name {
+    color: #000;
+    font-family: var(--font-inter);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.title {
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+    color: #5b5b5b;
+    text-align: center;
+}
+
+.description {
+    color: #000;
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.button {
+    margin-top: 16px;
+    padding: 12px 24px;
+    font-size: 16px;
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .card {
+        padding: 24px;
+    }
+    .name {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,63 @@
+.aboutAnchor {
+  position: absolute;
+  top: -84px;
+}
+
+.about {
+  padding: 140px 24px 213px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #FFF;
+}
+
+.infoCards {
+  margin-top: 29px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 523px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.tryItYourselfButton {
+  margin-top: 40px;
+}
+
+.aboutLeftImage {
+  position: absolute;
+  left: -130px;
+  top: 280px;
+}
+
+.aboutRightImage {
+  position: absolute;
+  right: -130px;
+  top: 280px;
+}
+
+@media (max-width: 768px) {
+  .aboutLeftImage {
+    left: -200px;
+    top: 50px;
+  }
+
+  .aboutRightImage {
+    right: -200px;
+    top: initial;
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .team {
+    padding: 90px 24px;
+  }
+
+  .aboutAnchor {
+    top: 0;
+  }
+}
